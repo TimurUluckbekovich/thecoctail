@@ -1,0 +1,22 @@
+.content {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 8px;
+    padding-bottom: 30px;
+}
+.content h2 {
+    color: #A78D9B;
+    cursor: pointer;
+}
+.content h2:hover {
+    color: #fb9e3b;
+}
+.content span {
+    font-weight: 200;
+    scale: 1.3;
+}
+.content span:last-child{
+    display: none;
+}

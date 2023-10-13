@@ -1,0 +1,29 @@
+.popular_drink_content {
+    width: 250px;
+    height: 271px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular_drink_img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 5px;
+}
+
+.popular_drink_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.popular_drink_title:hover, .popular_drink_img:hover + .popular_drink_title {
+    opacity: 1;
+    color: orange;
+}
+
+.popular_drink_title {
+    transition: 0.5s;
+    opacity: 0.6;
+    cursor: pointer;
+}

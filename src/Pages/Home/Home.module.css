@@ -1,0 +1,190 @@
+
+/*? Home Begining ?*/
+.Home_content {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #fff;
+}
+
+.Home_coctail_left, .Home_coctail_right {
+    width: 226px;
+    height: 226px;
+}
+
+.Home_patreon_logo {
+    width: 200px;
+    height: 62px;
+}
+.Home_patreon_logo:hover {
+    cursor: pointer;
+}
+
+.Home_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 684px;
+    height: 226px;
+}
+
+.Home_description p a, .Patreon_text {
+    opacity: 0.5;
+    transition: 0.5s;
+    text-decoration: none;
+    color: #fff;
+}
+
+.Home_description p a:hover, .Patreon_text:hover,.Home_patreon_logo:hover + .Patreon_text{
+    color: orange;
+    opacity: 1;
+    cursor: pointer;
+}
+
+i {
+    transform: scale(0.8);
+}
+
+.Home_coctail_left img, .Home_coctail_right img, .Home_patreon_logo  img {
+    width: 100%;
+    height: 100%;
+}
+/*? Home Begining ?*/
+
+
+
+/*? Home Search ?*/
+
+.Home_search {
+    padding: 40px 0;
+    border-bottom: 2px solid #fff;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.Home_search form {
+    display: flex;
+}
+
+.Home_search input {
+    font-size: 16px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding: 15px;
+}
+
+.Home_search button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    background-color: #fff;
+    border-left: 0.5px solid rgba(128, 128, 128, 0.572);
+}
+
+.Home_drinks_info {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.Home_drinks_info div {
+    display: flex;
+    gap: 3px;
+}
+
+
+/*? Home Search ?*/
+
+
+/*? Home PopularDrink ?*/
+
+.popular_drinks {
+    padding: 20px 0 80px 0;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.popular_drinks h3 {
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.popular_drinks_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/*? Home PopularDrink ?*/
+
+/*? Home PopularIngredients ?*/
+
+.popular_ingredients {
+    padding: 20px 0 80px 0;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.popular_ingredients h3 {
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.popular_ingredients_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/*? Home PopularIngredients ?*/
+
+
+/*? Home Latest Drinks  ?*/
+
+.latest_drinks {
+    padding: 20px 0 80px 0;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.latest_drinks h3 {
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.latest_drinks_content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+/*? Home Latest Drinks  ?*/
+
+
+/*? Alfavit ?*/
+
+.alfavit_drinks {
+    padding: 60px 0 40px 0;
+    color: #fff;
+}
+.alfavit_drinks h3 {
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+/*? Alfavit ?*/

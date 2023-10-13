@@ -1,0 +1,45 @@
+.ingredient_info {
+    color: #fff;
+    padding: 40px 0;
+    display: flex;
+    text-align: center;
+}
+.ingredient {
+    width: 35%;
+}
+.ingredient_img {
+    width: 420px;
+    height: 400px;
+}
+.ingredient_img img, .drinks_img img {
+    width: 100%;
+    height: 100%;
+}
+.drinks {
+    width: 65%;
+}
+.drinks h2, .ingredient h2 {
+    padding-bottom: 40px;
+}
+.drinks_img {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.drinks_img img:hover + .drink_title, .drink_title:hover{
+    color: orange;
+    opacity: 1;
+}
+.drink_title {
+    opacity: 0.6;
+}
+
+.drinks_item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
